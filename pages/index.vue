@@ -8,7 +8,7 @@
     <section class="hero is-medium is-purple">
   <div class="hero-body">
     <p class="title">
-      My name is Tiffany, I look forward to taking care of your babies!!!!
+      My name is Tiffany, I look forward to taking care of your babies!!!
     </p>
     <p class="subtitle">
       You can reach me at <a href="tel:5555555555">555-555-5555</a> or via email <a
