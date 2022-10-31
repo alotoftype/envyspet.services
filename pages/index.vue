@@ -17,6 +17,7 @@
   </div>
 </section>
     <section id="about" class="section">
+     <h2 class="title">About me</h2>
       <p>Why should your fur baby stay in a boarding facility when they can have all the comforts and amenities of home
         with an overnight petsitter!! sleepovers, mental and physical stimulation endless pictures and videos to keep
         mom and dad at ease. i’ve been in the animal business for 15yrs and are well diverse in Handling all types of
@@ -25,8 +26,8 @@
         and anxious fur babies. </p>
     </section>
     <section id="rates" class="section">
-      <h2>Rates</h2>
-      <table>
+      <h2 class="title">Rates</h2>
+      <table class="table is-bordered is-striped">
         <tr>
           <td>Pet</td>
           <td>Overnights(Single Pet)</td>
@@ -73,7 +74,7 @@
       </table>
     </section>
     <section id="contact" class="section">
-    <h2>Contact Form</h2>
+    <h2 class="title">Contact Form</h2>
       <form>
         <div class="field">
           <label>Name</label>
