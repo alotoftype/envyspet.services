@@ -1,0 +1,27 @@
+@import './variables.scss';
+
+
+:root {
+    --text-color: #{$textColor};
+    --background-color: #{$backgroundColor};
+    --pink: #{$pink};
+    --black: #{$black};
+    --purple: #{$purple};
+}
+
+
+html {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+label {
+  font-weight: bold;
+}
+
+.is-purple {
+    background-color: $purple;
+ p {
+   color: $pink;
+ }
+}
