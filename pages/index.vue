@@ -75,15 +75,15 @@
     </section>
     <section id="contact" class="section">
     <h2 class="title">Contact Form</h2>
-      <form>
+      <form name="contact" method="POST" data-netify="true">
         <div class="field">
           <label>Name</label>
-            <input class="input" type="text" placeholder="Enter Name " />
+            <input class="input" type="text" placeholder="Enter Name" name="name" />
 
         </div>
         <div class="field">
           <label>email</label>
-            <input class="input" type="email" placeholder="Enter Email " />
+            <input class="input" type="email" placeholder="Enter Email" name="email" />
 
         </div>
         <div class="field">
@@ -97,12 +97,12 @@
         <div class="field">
           <label>Message</label>
           <div class="control">
-            <textarea class="textarea" placeholder="Write Message"></textarea>
+            <textarea class="textarea" placeholder="Write Message" name="message"></textarea>
           </div>
         </div>
         <div class="field is-grouped">
           <div class="control">
-            <button class="button is-link">Submit</button>
+            <button class="button is-link" type="submit">Submit</button>
           </div>
           <div class="control">
             <button class="button is-link is-light">Cancel</button>
