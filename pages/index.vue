@@ -4,7 +4,7 @@
 
 <template>
   <div class="container">
-    <img src="@/assets/img/background.jpg" alt="main image" />
+    <img class="image is-fullwidth" src="@/assets/img/background.jpg" alt="main image" />
     <section class="hero is-medium is-purple">
   <div class="hero-body">
     <p class="title">
@@ -16,7 +16,7 @@
     </p>
   </div>
 </section>
-    <section id="about">
+    <section id="about" class="section">
       <p>Why should your fur baby stay in a boarding facility when they can have all the comforts and amenities of home
         with an overnight petsitter!! sleepovers, mental and physical stimulation endless pictures and videos to keep
         mom and dad at ease. i’ve been in the animal business for 15yrs and are well diverse in Handling all types of
@@ -24,7 +24,7 @@
         been for 16yrs so i am well diversified in medication administration, subcutaneous fluids, insulin, restraint
         and anxious fur babies. </p>
     </section>
-    <section id="rates" class="container">
+    <section id="rates" class="section">
       <h2>Rates</h2>
       <table>
         <tr>
@@ -72,7 +72,7 @@
         </tr>
       </table>
     </section>
-    <section id="contact" class="container">
+    <section id="contact" class="section">
     <h2>Contact Form</h2>
       <form>
         <div class="field">
